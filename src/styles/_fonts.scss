@@ -1,0 +1,50 @@
+/*
+  FontFamily:
+
+  Pacifico - Regular
+  PatrickHand - Regular
+  Montserrat - Regular
+  Montserrat-sb - SemiBold
+
+  FredokaOne - Regular
+*/
+
+// Pacifico
+@font-face {
+  font-family: "Pacifico";
+  src: url("../Fonts/Pacifico-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+// PatrickHand
+@font-face {
+  font-family: "PatrickHand";
+  src: url("../Fonts/PatrickHand-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Montserrat Regular
+@font-face {
+  font-family: "Montserrat";
+  src: url("../Fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Montserrat SemiBold
+@font-face {
+  font-family: "Montserrat-sb";
+  src: url("../Fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+// FredokaOne
+@font-face {
+  font-family: "FredokaOne";
+  src: url("../Fonts/FredokaOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

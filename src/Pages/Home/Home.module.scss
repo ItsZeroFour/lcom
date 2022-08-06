@@ -1,0 +1,171 @@
+.container {
+  background: linear-gradient(
+    111.71deg,
+    #e1a4ff 0%,
+    #7ee8ff 0.01%,
+    #4ed4ff 27.64%,
+    #3ccae9 56.88%,
+    #08c1e9 85.32%
+  );
+  height: 100vh;
+  overflow: hidden;
+}
+
+// nav
+.nav {
+  max-width: 1161px;
+  display: flex;
+  justify-content: space-between;
+
+  &__list ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 20px;
+
+    li {
+      margin-left: 71px;
+      font-family: "Montserrat-sb", sans-serif;
+      font-size: 30px;
+
+      @media only screen and (max-width: 1297px) {
+        margin-left: 50px;
+      }
+
+      a {
+        color: #fff;
+
+        &:hover {
+          border-bottom: 2px solid #fff;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1297px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.logo {
+  margin-left: 154px;
+  width: 150px;
+  height: auto;
+
+  @media only screen and (max-width: 1297px) {
+    margin-left: 350px;
+  }
+
+  @media only screen and (max-width: 1093px) {
+    display: none;
+  }
+}
+
+// Main
+.main {
+  margin-top: 147px;
+  margin-left: 343px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title h1 {
+  position: relative;
+  font-size: 190px;
+  font-family: "PatrickHand", sans-serif;
+  color: #0060a5;
+  text-shadow: 7px 7px 0 #308bcc;
+  z-index: 1;
+
+  @media only screen and (max-width: 520px) {
+    font-size: 100px;
+  }
+
+  &::after {
+    content: "";
+    background: url("../../Images/Home/Title-bg.svg") no-repeat center;
+    position: absolute;
+    width: 473px;
+    height: 321px;
+    top: 25px;
+    left: 0;
+    z-index: -1;
+
+    @media only screen and (max-width: 520px) {
+      display: none;
+    }
+  }
+
+  &::before {
+    content: "Постинг фембоев 24/7";
+    position: absolute;
+    font-size: 44px;
+    font-weight: 400;
+    font-family: "Pacifico", sans-serif;
+    min-width: 262px;
+    top: 200px;
+    left: 186px;
+    text-shadow: none;
+    color: #004272;
+    line-height: 55px;
+
+    @media only screen and (max-width: 520px) {
+      font-size: 24px;
+      left: 0;
+    }
+  }
+
+  @media only screen and (max-width: 1093px) {
+    margin-left: -61px;
+  }
+
+  @media only screen and (max-width: 864px) {
+    margin-left: -161px;
+  }
+
+  @media only screen and (max-width: 646px) {
+    margin-left: -291px;
+  }
+}
+
+// Images
+
+.images img {
+  margin-top: -220px;
+  margin-left: 370px;
+  @media only screen and (max-width: 1863px) {
+    display: none;
+  }
+}
+
+.images__container {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background: url("../../Images/Home/butterfly.png") no-repeat center;
+    width: 750px;
+    height: 750px;
+    top: -100px;
+    left: 470px;
+  }
+}
+
+// Footer
+footer {
+  img {
+    margin-top: -70px;
+    margin-left: 50px;
+
+    @media only screen and (max-width: 1863px) {
+      display: none;
+    }
+  }
+}

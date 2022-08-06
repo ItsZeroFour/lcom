@@ -1,0 +1,43 @@
+.personpage {
+  .img {
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+  }
+
+  .text {
+    color: #292929;
+    text-align: center;
+    margin: 0;
+    font-family: "Montserrat-sb", sans-serif;
+    font-size: 54px;
+  }
+
+  @media only screen and (max-width: 1094px) {
+    .text {
+      font-size: 34px;
+    }
+  }
+
+  @media only screen and (max-width: 894px) {
+    .img {
+      margin-top: 50%;
+      width: 70%;
+    }
+
+    .text {
+      font-size: 24px;
+    }
+  }
+
+  @media only screen and (max-width: 370px) {
+    .text {
+      font-size: 17px;
+    }
+
+    .img {
+      margin-top: 50%;
+      width: 100%;
+    }
+  }
+}
